@@ -41,3 +41,67 @@ h5 {
     line-height: 1.75 !important;
   }
 }
+
+
+/* Animation starts */
+.description {
+  position: relative;
+  opacity: 0;
+
+  animation: text-blur 2.5s forwards ease-out;
+  -webkit-animation: text-blur 2.5s forwards ease-out;
+}
+
+#para-1 {
+  animation-delay: 0.75s;
+  -webkit-animation-delay: 0.75s;
+}
+#para-2 {
+  animation-delay: 1.25s;
+  -webkit-animation-delay: 1.25s;
+}
+#para-3 {
+  animation-delay: 1.75s;
+  -webkit-animation-delay: 1.75s;
+}
+#para-4 {
+  animation-delay: 2.25s;
+  -webkit-animation-delay: 2.25s;
+}
+
+
+@-webkit-keyframes text-blur {
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes text-blur {
+  100% {
+    opacity: 1;
+  }
+}
+
+
+#image, #title {
+  position: relative;
+  left: -750px;
+
+  animation: image-animate forwards 2.75s;
+  -webkit-animation: image-animate forwards 2.75s;
+
+  animation-delay: 1.75s;
+  -webkit-animation-delay: 1.75s;
+}
+
+
+
+@-webkit-keyframes image-animate {
+  100% {
+    left: 0;
+  }
+}
+@keyframes image-animate {
+  100% {
+    left: 0;
+  }
+}

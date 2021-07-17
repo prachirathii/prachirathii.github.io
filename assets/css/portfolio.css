@@ -43,3 +43,47 @@ h5 {
     align-items: center;
   }
 }
+
+
+#title {
+  position: relative;
+  bottom: -75px;
+
+  animation: animate-title 1s forwards ease-out;
+  -webkit-animation: animate-title 1s forwards ease-out;
+
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+
+@-webkit-keyframes animate-title {
+  100% {
+    bottom: 0;
+  }
+}
+@keyframes animate-title {
+  100% {
+    bottom: 0;
+  }
+}
+
+.card {
+  position: relative;
+  opacity: 0;
+
+  animation: image-animate forwards 2s;
+  -webkit-animation: image-animate forwards 2s;
+
+  animation-delay: 2.75s;
+  -webkit-animation-delay: 2.75s;
+}
+@-webkit-keyframes image-animate {
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes image-animate {
+  100% {
+    opacity: 1;
+  }
+}

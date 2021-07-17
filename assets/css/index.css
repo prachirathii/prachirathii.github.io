@@ -140,6 +140,7 @@ h1 {
 }
 
 #image {
+  z-index: -1;
   position: relative;
   opacity: 0;
 

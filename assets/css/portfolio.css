@@ -46,6 +46,7 @@ h5 {
 
 
 #title {
+  z-index: -1;
   position: relative;
   bottom: -75px;
 
@@ -68,6 +69,7 @@ h5 {
 }
 
 .card {
+  z-index: -1;
   position: relative;
   opacity: 0;
 

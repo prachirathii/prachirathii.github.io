@@ -80,12 +80,12 @@ h1 {
 }
 
 #myname {
-  animation-delay: 0.5s;
-  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.05s;
+  -webkit-animation-delay: 0.05s;
 }
 #intro {
-  animation-delay: 1.75s;
-  -webkit-animation-delay: 1.75s;
+  animation-delay: 1.3s;
+  -webkit-animation-delay: 1.3s;
 }
 
 @-webkit-keyframes slide {
@@ -103,29 +103,29 @@ h1 {
   position: relative;
   bottom: -75px;
 
-  animation: social-icons-slide 1s forwards ease-out;
-  -webkit-animation: social-icons-slide 1s forwards ease-out;
+  animation: social-icons-slide 0.5s forwards ease-out;
+  -webkit-animation: social-icons-slide 0.5s forwards ease-out;
 }
 
 #quote {
-  animation-delay: 4.5s;
-  -webkit-animation-delay: 4.5s;
+  animation-delay: 3.5s;
+  -webkit-animation-delay: 3.5s;
 }
 #quora {
-  animation-delay: 5.25s;
-  -webkit-animation-delay: 5.25s;
+  animation-delay: 4.25s;
+  -webkit-animation-delay: 4.25s;
 }
 #linkedin {
-  animation-delay: 6s;
-  -webkit-animation-delay: 6s;
+  animation-delay: 5s;
+  -webkit-animation-delay: 5s;
 }
 #twitter {
-  animation-delay: 6.75s;
-  -webkit-animation-delay: 6.75s;
+  animation-delay: 5.75s;
+  -webkit-animation-delay: 5.75s;
 }
 #instagram {
-  animation-delay: 7.5s;
-  -webkit-animation-delay: 7.5s;
+  animation-delay: 6.5s;
+  -webkit-animation-delay: 6.5s;
 }
 
 @-webkit-keyframes social-icons-slide {
@@ -147,8 +147,8 @@ h1 {
   animation: image-animate forwards 2s;
   -webkit-animation: image-animate forwards 2s;
 
-  animation-delay: 2.75s;
-  -webkit-animation-delay: 2.75s;
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
 }
 @-webkit-keyframes image-animate {
   100% {

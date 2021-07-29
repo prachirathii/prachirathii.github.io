@@ -42,7 +42,6 @@ h5 {
   }
 }
 
-
 /* Animation starts */
 .description {
   position: relative;
@@ -53,22 +52,21 @@ h5 {
 }
 
 #para-1 {
-  animation-delay: 0.75s;
-  -webkit-animation-delay: 0.75s;
+  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
 }
 #para-2 {
-  animation-delay: 1.25s;
-  -webkit-animation-delay: 1.25s;
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
 }
 #para-3 {
-  animation-delay: 1.75s;
-  -webkit-animation-delay: 1.75s;
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
 }
 #para-4 {
-  animation-delay: 2.25s;
-  -webkit-animation-delay: 2.25s;
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
 }
-
 
 @-webkit-keyframes text-blur {
   100% {
@@ -81,8 +79,8 @@ h5 {
   }
 }
 
-
-#image, #title {
+#image,
+#title {
   z-index: -1;
   position: relative;
   left: -750px;
@@ -90,11 +88,9 @@ h5 {
   animation: image-animate forwards 2.75s;
   -webkit-animation: image-animate forwards 2.75s;
 
-  animation-delay: 1.75s;
-  -webkit-animation-delay: 1.75s;
+  animation-delay: 1.25s;
+  -webkit-animation-delay: 1.25s;
 }
-
-
 
 @-webkit-keyframes image-animate {
   100% {
